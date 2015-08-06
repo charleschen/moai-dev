@@ -39,6 +39,8 @@ cmake \
 -DMOAI_LUAJIT=TRUE \
 -DMOAI_HTTP_CLIENT=TRUE \
 -DCMAKE_BUILD_TYPE=Release \
+-DPLUGIN_DIR=`pwd`/../../../moai-plugins \
+-DPLUGIN_MOAI-SPINE=1 \
 ../
 
 make -j8
